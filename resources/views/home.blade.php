@@ -14,12 +14,16 @@
             <h3>Current Series</h3>
         </div>
         <div class="container d-flex justify-content-center flex-wrap">
-            <div class="product-card">
-                <div class="img-container">
-                    <img src="imgUrl" alt="title">
+
+            @foreach ($comics as $comic)
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src=" {{ $comic->image}} " alt=" {{ $comic->type}} ">
+                    </div>
+                    <h6 class="mb-0"> {{ $comic->title}} </h6>
                 </div>
-                    <h6 class="mb-0">  title  </h6>
-                </div>
+            @endforeach
+            
             <button class="btn-load">Load More</button>
         </div>
     </div>
