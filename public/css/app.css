@@ -10852,6 +10852,10 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+header {
+  background-color: aqua;
+}
+
 .products-bg {
   width: 100%;
   background-color: #1c1c1c;
@@ -10918,4 +10922,8 @@ h6, .h6 {
   text-transform: uppercase;
   font-weight: 400;
   margin-top: 10px;
+}
+
+footer {
+  background-color: magenta;
 }
