@@ -15,11 +15,11 @@
         </div>
         <div class="container d-flex justify-content-center flex-wrap">
             <div class="product-card">
-                <!-- <div class="img-container">
-                    <img :src="imgUrl" :alt="title">
+                <div class="img-container">
+                    <img src="imgUrl" alt="title">
                 </div>
                     <h6 class="mb-0">  title  </h6>
-                </div> -->
+                </div>
             <button class="btn-load">Load More</button>
         </div>
     </div>
